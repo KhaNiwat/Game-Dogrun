@@ -40,7 +40,7 @@ public class Game extends JPanel implements KeyListener {
     public void reset_game() {
         dog.score = 0;
         this.LastPress = 0;
-        this.dog.health = 100;
+        this.dog.health = 5;
         this.stage = 0;
         remove(Backtomanu);
     }
